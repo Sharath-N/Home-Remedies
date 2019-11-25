@@ -1,4 +1,4 @@
-<img src="../../Pics/54d5c087101c32930a8c3c610c886452.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/0d2965ea48f1d96e46131c08db7427c6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/76d12811ac2a05cd8658928c1d629930.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/fed63f6f5a8bd9be42b2960feefebee6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/54d5c087101c32930a8c3c610c886452.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/0d2965ea48f1d96e46131c08db7427c6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/76d12811ac2a05cd8658928c1d629930.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/fed63f6f5a8bd9be42b2960feefebee6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$

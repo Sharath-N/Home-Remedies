@@ -1,4 +1,4 @@
-<img src="../../Pics/54d5c087101c32930a8c3c610c886452.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/44b8b4e73811687f11ed9e185ed2628b.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/f60debd344ba22d679b1d8943ab0c822.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
-<img src="../../Pics/ginger-on-gray-surface-1337585.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/54d5c087101c32930a8c3c610c886452.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/44b8b4e73811687f11ed9e185ed2628b.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/f60debd344ba22d679b1d8943ab0c822.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../Pics/ginger-on-gray-surface-1337585.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$

@@ -1,2 +1,2 @@
 <h1 >TOOTHACHE</h1>$
-<img src="../../Pics/e18fe9dd9ff101ad7af69fc8edbc5ec2.jpg" class="img-thumbnail" alt="Cinque Terre" width="610" height="475">$
+<img src="../Pics/e18fe9dd9ff101ad7af69fc8edbc5ec2.jpg" class="img-thumbnail" alt="Cinque Terre" width="610" height="475">$

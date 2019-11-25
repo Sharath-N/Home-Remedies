@@ -1,2 +1,2 @@
 <h1 >HEADACHE</h1>$
-<img src="../../Pics/30efb62834fe26230c61310d1a1f9448.jpeg" class="img-thumbnail" alt="Cinque Terre" width="610" height="475">$
+<img src="../Pics/30efb62834fe26230c61310d1a1f9448.jpeg" class="img-thumbnail" alt="Cinque Terre" width="610" height="475">$
