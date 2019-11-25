@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME REMEDIES</title>
+	<link rel="icon" href="homepage/title.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+	border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404040;
+}
+.bottom {
+	background-color:#262626;
+	padding-left:40;
+	border-radius:8px;
+	padding-right:40;
+	padding-right:0px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.button31 {
+    background-color: white;
+    color: lightblue;
+    border: 2px solid #f44336;
+}
+.button31:hover {
+    background-color: #f44336;
+    color: white;
+}
+.button51 {
+    background-color: white;
+    color: lightblue;
+    border: 2px solid #555555;
+}
+.button51:hover {
+    background-color: #555555;
+    color: white;
+}
+.button21 {
+    background-color: white;
+    color: lightyellow;
+    border: 2px solid #008CBA;
+}
+.button21:hover {
+    background-color: #008CBA;
+    color: white;
+}
+li {
+    float: left;
+	//color : white;
+	font-size : 14px;
+	font-variant : small-caps;
+	font-family : Arial, Helvetica, sans-serif;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ff5233;
+	border-radius: 3px;
+	box-shadow:0 10px 10px 0 rgba(0,0,0,0.4),0 20px 20px 0 rgba(0,0,0,0.4) ;
+}
+.mySlides {
+	display:none;
+}
+body {
+    background-image: url("homepage/bg1.png") ;
+}
+.img {
+	height: 300px;
+    width: 550px;
+	display: block;
+}
+.animate-fading {
+	animation:fading 10s infinite;
+}
+//@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.content {
+	max-width:980px;margin:auto;
+}
+.w3-rest {
+	overflow:hidden
+}
+.section {
+	margin-top:16px!important;
+	margin-bottom:16px!important;
+}
+.box {
+    width: 300px;
+	max-height:10px;
+    border: 3px solid gray;
+    margin: 55px;
+	padding: 25px;
+}
+.name {
+	color:#FFFFFF;
+	font-size: 50px;
+	font-family:"Monospace";
+}
+.container {
+    position: relative;
+	margin-right: 45%;
+    width: 50%;
+}
+.image {
+	border: 5px solid white;
+	border-radius: 4px;
+	opacity: 1;
+	display: block;
+	width: 500px;
+	height: 300px;
+	transition: .8s ease;
+	backface-visibility: hidden;
+}
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 70%;
+	left: 99%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+.container:hover .image {
+	opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+	background-color: TOMATO;
+	color: white;
+	font-size: 16px;
+	padding: 16px 14px;
+	text-align: center;
+	font-family : Arial, Helvetica, sans-serif;
+}
+div.transbox {
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.assura {
+	background-color:white;
+}
+.ncontainer {
+    position: relative;
+}
+#rcorners2 {
+	border-radius: 3px;
+	background: #e5e5e5;
+}
+.ncenter {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+	font-family: courier;
+}
+.footfont{
+	color : white;
+	font-size : 17px;
+	font-variant : small-caps;
+	font-family : Arial, Helvetica, sans-serif;
+}
+.footfont2{
+	color : white;
+	font-size : 12px;
+	text-align: center;
+	float: center;
+	font-family : Arial, Helvetica, sans-serif;
+}
+.footfont2 a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.footfont2 a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.footfont2 a:hover {
+    color: red;
+	text-shadow: 5px 4px 10px gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footfont2 a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.shad {
+	padding:0px 0px 0px 0px;
+	border-radius: 10px;
+}
+.shad:hover {
+	box-shadow:5px 4px 10px 0 gray, 5px 4px 20px 0 gray;
+ }
+.spac {
+	padding-left: 10px;
+	padding-right : 10px;
+}
+
+/* login page */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imglcontainer {
+    text-align: center;
+    margin-top:10px;
+    position: relative;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.lcontainer {
+  padding: 50px;
+	margin-top:0;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 400px;
+    width: 45%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: ; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
+    padding-top: 5px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto 0 auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 98%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.butt {
+	position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.box1 {
+	display:none;
+	position: fixed;
+	z-index: 1;
+	left: 460px;
+	width: 40%;
+	height: 120%;
+	top: 0;
+	padding: 10px;
+	border: solid gray;
+	margin: auto;
+	margin-top: 50px;
+	overflow: auto;
+	background-color: #fefefe;
+}
+.box2 {
+	display:none;
+	width: 100%;
+	height: 500px;
+	padding: 1px;
+	margin: auto;
+	overflow: auto;
+	z-index: 1;
+	border-style: 1px;
+}
+.box3 {
+	display:none;
+	width: 99%;
+	height: 350px;
+	padding: 10px;
+	margin: auto;
+	overflow: auto;
+	z-index: 1;
+	border-style: none;
+}
+.buttonlog {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+		z-index: 1;
+}
+
+.buttonlog:hover {
+    opacity: 0.8;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+ </style>
+</head>
+<body>
+	<div class="ncontainer">
+		<img style="opacity:" src="homepage/PSX_20191121_213252.jpeg" alt="Norway" width="100%" height="400" >
+		<div class="ncenter"></div>
+	</div>
+
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="about/about.html">About Us</a></li>
+		<li><a href="contact/contact.html">Contact Us</a></li>
+	</ul>
+
+	<script>
+	function validateForm() {
+    var x = document.forms["login"]["usn"].value;
+    if (x == "") {
+        alert("Name cannot be empty");
+        return false;
+    }
+		var x = document.forms["login"]["psw"].value;
+    if (x == "") {
+        alert("Password cannot be empty");
+        return false;
+    }
+	}
+</script>
+	
+	<div class="content section" style="width:2000px">
+		<img class="mySlides animate-fading" src="homepage/tips1.png" style="width:100%" >
+		<img class="mySlides animate-fading" src="homepage/tips2.png" style="width:100%" >
+		<img class="mySlides animate-fading" src="homepage/tips3.png" style="width:100%" >
+		<img class="mySlides animate-fading" src="homepage/tips4.png" style="width:100%">
+		<img class="mySlides animate-fading" src="homepage/tips5.png" style="width:100%" >
+	</div>
+
+	<br />
+
+	<table id="menu" border="0px" align="center">
+		<tr>
+			<td align="center" style="margin-right: 5%;">
+				<div class="container">
+					<a href="headache/headache.html">
+						<img src="homepage/30efb62834fe26230c61310d1a1f9448.jpeg" alt="Avatar" class="image">
+						<div class="middle">
+							<div class="text" style="border-radius:2px;">HEADACHE</div>
+						</div>
+					</a>
+				</div>
+			</td>
+			<td><pre>                                                </pre></td>
+			<td>
+				<center>
+					<div class="container">
+						<a href="cold/cold.html">
+							<img src="homepage/fcad0ce76c09804d762ffffc7364d698.jpeg" alt="Avatar" class="image">
+							<div class="middle">
+								<div class="text" style="border-radius:2px;">COMMON COLD</div>
+							</div>
+						</a>
+					</div>
+				</center>
+			</td>
+		</tr>
+		<tr> 
+			<td height="25%" colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<div class="container">
+					<a href="cough/cough.html">
+						<img src="homepage/d42df9bff9ce02ddea358d0476bff337.jpg" alt="Avatar" class="image">
+						<div class="middle">
+							<div class="text"  style="border-radius:2px;">COUGH</div>
+						</div>
+					</a>
+				</div>
+			</td>
+			<td></td>
+			<td align="center">
+				<div class="container">
+					<a href="acne/acne.html">
+						<img src="homepage/895543a6829053b52dbffa8c1df07515.jpg" alt="Avatar" class="image">
+						<div class="middle">
+							<div class="text" style="border-radius:2px;">ACNE</div>
+						</div>
+					</a>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td height="25%" colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<div class="container">
+					<a href="gastric/gastric.html">
+						<img src="homepage/22f11f1f122e032a4e467f0442c4c0ff.jpeg" alt="Avatar" class="image">
+						<div class="middle">
+							<div class="text" style="border-radius:2px;">GASTRIC</div>
+						</div>
+					</a>
+				</div>
+			</td>
+			<td></td>
+			<td align="center">
+				<div class="container">
+					<a href="toothache/toothache.html">
+						<img src="homepage/e18fe9dd9ff101ad7af69fc8edbc5ec2.jpg" alt="Avatar" class="image">
+						<div class="middle">
+							<div class="text" style="border-radius:2px;">TOOTHACHE</div>
+						</div>
+					</a>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td height="25%" colspan="2"><br /></td>
+		</tr>
+	</table>
+	<pre>
+		
+
+	</pre>
+	<script>
+		var myIndex = 0;
+		carousel();
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 5000);
+		}
+	</script>
+	<br />
+	<iframe width="0" height="0" id="ifr" src="caching/xhrcache.php"></iframe> 
+	<footer>
+		<div class="bottom" style="overflow-x:auto;">
+			<table width="100%" border=0px>
+				<tr>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="contact/contact.html"  style="color:white;">Contact Us</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#Account"  style="color:white;">My Account</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#team"  style="color:white;">Team</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#Careers" target="_blank" style="color:white;">Careers</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#contribute"  style="color:white;">Contribute To Us</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#faq"  style="color:white;">FAQ's</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#blog"  style="color:white;">Blog</a></td>
+					<td class="footfont2">&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#partnership"  style="color:white;">Partner WIth Us</a></td>
+				</tr>
+			</table>
+			<br />
+			<hr style="color:#f2f2f2;" />
+
+			<table border="0px" align="center">
+				<tr>
+					<td style="padding:0px 10px 0px 10px;"><a href="https://twitter.com/"><img class="shad" src="homepage/tweet1.png" alt="Twitter" /></a></td>
+					<td style="padding:0px 10px 0px 10px;"><a href="https://www.google.com/"><img class="shad" src="homepage/google.png" alt="Google" height="41px" width="41px" /></a></td>
+					<td style="padding:0px 10px 0px 10px;"><a href="https://www.facebook.com/"><img class="shad" src="homepage/facebook.png" alt="FaceBook" /></a></td>
+					<td style="padding:0px 10px 0px 10px;"><a href="https://www.instagram.com/"><img class="shad" src="homepage/Instagram.png" alt="Instagram" /></a></td>
+				</tr>
+			</table>
+
+			<p>
+				<center class ="footfont2">
+					<a href="#privacy">Privacy</a>&nbsp|&nbsp <a href="#terms">Terms of use</a>&nbsp|&nbsp <a href="#security">Security</a>&nbsp|&nbsp <a href="#infrigement">Infrigement</a>
+					</center>
+			</p>
+
+			<p style="color : brown; text-align : center; font-size : 13px; font-family : Arial, Helvetica, sans-serif;">© 2019 Copyright Text.All rights reserved.<a class="footfont2" href="#!">Founders</a></p>
+		</div>
+	</footer>
+</body>
+</html>

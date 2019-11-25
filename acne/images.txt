@@ -1,0 +1,4 @@
+<img src="../../Pics/246d72f22a89e56fe141e7fee59e0e0e.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../../Pics/a5eb8f146a5ee4ddd699cca43fb89915.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../../Pics/34c440901989ebbb6d02ee0feaa23ae6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$
+<img src="../../Pics/fed63f6f5a8bd9be42b2960feefebee6.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="306">$

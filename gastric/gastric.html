@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HOME REMEDIES</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script>
+    function init(){
+      document.getElementById("heading").innerHTML=""
+      document.getElementById("main-img").innerHTML=""
+      document.getElementById("sol1-name").innerHTML='<img src="../../Pics/Infinity-1s-200px (1).gif" alt="Cinque Terre" width="100" height="100">'
+      iframe =document.getElementById("ifr");
+  		iframe.src   = "../caching/xhrcache.php";
+    xhr = new XMLHttpRequest();
+      if(xhr)
+      {
+        xhr.onreadystatechange = getFirst;
+        xhr.open("GET", "first.txt", true);
+        xhr.send(null);
+      }
+    }
+    
+    function getFirst(){
+
+    if(xhr.readyState=="4"&&xhr.status==200){
+        var arr=(xhr.responseText).split("$");
+        document.getElementById("heading").innerHTML=arr[0];
+        document.getElementById("main-img").innerHTML=arr[1];
+        setTimeout(getContent, 2000);
+        
+      }
+    }
+    function getContent(){
+
+      xhr.open("GET", "english.txt", true);
+      xhr.onreadystatechange = showContent;
+      xhr.send(null);
+      document.getElementById("sol1-img").innerHTML='<img src="../../Pics/Infinity-1s-200px (1).gif" alt="Cinque Terre" width="100" height="100">'
+      document.getElementById("sol2-img").innerHTML='<img src="../../Pics/Infinity-1s-200px (1).gif" alt="Cinque Terre" width="100" height="100">'
+      document.getElementById("sol3-img").innerHTML='<img src="../../Pics/Infinity-1s-200px (1).gif" alt="Cinque Terre" width="100" height="100">'
+      document.getElementById("sol4-img").innerHTML='<img src="../../Pics/Infinity-1s-200px (1).gif" alt="Cinque Terre" width="100" height="100">'
+    }
+	
+    function showContent(){
+
+      if(xhr.readyState=="4"&&xhr.status==200){
+          var arr=(xhr.responseText).split("$");
+          document.getElementById("sol1-name").innerHTML=arr[0];
+          document.getElementById("sol1-content").innerHTML=arr[1];
+          document.getElementById("sol2-name").innerHTML=arr[2];
+          document.getElementById("sol2-content").innerHTML=arr[3];
+          document.getElementById("sol3-name").innerHTML=arr[4];
+          document.getElementById("sol3-content").innerHTML=arr[5];
+          document.getElementById("sol4-name").innerHTML=arr[6];
+          document.getElementById("sol4-content").innerHTML=arr[7];
+          setTimeout(getPic, 4000);
+        }
+    }
+
+  function getHindiContent(){
+	  document.getElementById("heading").innerHTML="<h1>अम्लता</h1>";
+      xhr.open("GET", "hindi.txt", true);
+      xhr.onreadystatechange = showContent;
+      xhr.send(null);
+  }
+	function getKannadaContent(){
+	  document.getElementById("heading").innerHTML="<h1>ಗ್ಯಾಸ್ಟ್ರಿಕ್</h1>";
+      xhr.open("GET", "kannada.txt", true);
+      xhr.onreadystatechange = showContent;
+      xhr.send(null);
+  }
+	
+	
+    function getPic(){
+
+      xhr.open("GET", "images.txt", true);
+      xhr.onreadystatechange = showImg;
+      xhr.send(null);
+    }
+
+    function showImg()
+    {
+      if(xhr.readyState == 4 && xhr.status == 200){
+        var arr=(xhr.responseText).split("$");
+        document.getElementById("sol1-img").innerHTML=arr[0];
+        document.getElementById("sol2-img").innerHTML=arr[1];
+        document.getElementById("sol3-img").innerHTML=arr[2];
+        document.getElementById("sol4-img").innerHTML=arr[3];
+        
+      }
+    }
+  </script>
+  
+  
+</head>
+<body onload="init()">
+
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">Home Remedies</a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about/about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    <nav class="navbar fixed-bottom navbar-expand-sm bg-light justify-content-center">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" onclick="init()" href="#">English</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="getHindiContent()" href="#">Hindi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="getKannadaContent()" href="#">Kannada</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div style="overflow: ; margin:3%">
+      <center>
+      <div class="jumbotron text-center" id = "heading">
+            
+      </div>
+      <div id="main-img">
+  
+      </div>
+      </br>
+      <div style="width: 80%; margin-top: 3%;"> 
+        <div id="sol1-name">
+    
+        </div>
+    <div class="row" style="margin-top: 2%;">
+          <div class="col-sm-5" id="sol1-img">
+              
+          </div>
+          <div class="col-sm-7 text-center" id="sol1-content" style="margin-top: auto;margin-bottom: auto;">
+              
+          </div>
+        </div>
+      </div>
+      <div style="width: 80%; margin-top: 3%;"> 
+        <div id="sol2-name">
+    
+        </div>
+    <div class="row" style="margin-top: 2%;">
+          <div class="col-sm-5" id="sol2-img">
+              
+          </div>
+          <div class="col-sm-7" id="sol2-content" style="margin-top: auto;margin-bottom: auto;">
+             
+          </div>
+        </div>
+      </div>
+      <div style="width: 80%; margin-top: 3%;"> 
+        <div id="sol3-name">
+    
+        </div>
+    <div class="row" style="margin-top: 2%;">
+          <div class="col-sm-5" id="sol3-img">
+              
+          </div>
+          <div class="col-sm-7" id="sol3-content" style="margin-top: auto;margin-bottom: auto;">
+            
+          </div>
+        </div>
+      </div>
+      <div style="width: 80%; margin-top: 3%;"> 
+        <div id="sol4-name">
+    
+        </div>
+    <div class="row" style="margin-top: 2%;">
+          <div class="col-sm-5" id="sol4-img">
+              
+          </div>
+          <div class="col-sm-7" id="sol4-content" style="margin-top: auto;margin-bottom: auto;">
+            
+          </div>
+      </div>
+      </center>
+
+    </div>
+    <iframe width="0" height="0" id="ifr"></iframe>
+</body>
+</html>
